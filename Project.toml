@@ -1,0 +1,19 @@
+name = "InfiniteOptSymbolics"
+uuid = "5c8436d7-5f64-4835-8784-342d9d437ef4"
+authors = ["Joshua Pulsipher"]
+version = "0.1.0"
+
+[deps]
+InfiniteOpt = "20393b10-9daf-11e9-18c9-8db751c92c57"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+
+[compat]
+InfiniteOpt = "0.4, 0.5"
+ModelingToolkit = "6, 7, 8"
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
